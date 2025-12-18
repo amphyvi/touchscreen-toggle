@@ -32,15 +32,9 @@ $outExe = ""
 ```
 4. Lastly, just run this and you'll end up with an EXE file where you specified in the previous step!
 ```powershell
-Invoke-ps2exe $inFile $outExe
+Invoke-ps2exe $inFile $outExe -requireAdmin -title 'Touchscreen Toggle' -description 'Toggles the touch screen on Windows clients'
 ```
 
-This will get you most of the way. Now, you can pin that EXE to your Start menu or taskbar, or create a shortcut to it, and you can now use it to toggle your touchscreen... **but, you must make it run as Administrator** or you'll get a "generic error" each time and it won't work. Use A or B below to accomplish that.
+At this point, you *can* be done if you want! You can pin that EXE to your Start menu or taskbar, or create a shortcut to it, and you can now use it to toggle your touchscreen easily. You'll get a prompt each time though, and in some cases, that may mean you need to enter your password each time. If you don't mind that prompt each time, you're set.
 
-A. If you don't mind the admin prompt, even if that means you may need to enter your password each time...
-- Hold Shift and right-click the pin/shortcut you created, and choose Properties. (If you don't see Properties, use Open File Location instead to see where the pin is located, then use *that* when repeating this step)
-- Go to the Compatibility tab, and enable the **Run this program as an administrator** checkbox.
-
-B. If you would rather it be as seamless as possible, and don't want the admin prompt each time... then follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
-
-That's it! Now you can use the pin/shortcut you created, and even customize it with an icon etc, and you'll be able to toggle your touchscreen on or off extremely quickly and extremely easily.
+If you would rather it be as seamless as possible tough, and don't want the admin prompt each time... then follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
