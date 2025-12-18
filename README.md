@@ -7,7 +7,7 @@ Solution for artists to quickly and easily turn on/off the touchscreen on Window
 
 ---------------
 
-I use a Windows laptop for general computing *and* for drawing. I don't want to use a special glove when drawing just to avoid unwanted touch inputs, I can poke buttons in my art program as needed. Disabling touch in specific art programs in their per-app settings (such as Clip Studio Paint) helps a little, but modern displays have really tiny bezels which leads to lots of unintentional palm touches at every edge, so it doesn't help much.
+I use a Windows laptop for general computing *and* for drawing. I don't want to use a special glove when drawing just to avoid unwanted touch inputs, I can poke buttons in my art program with my stylus and even pan/zoom/rotate with it too. Disabling touch in specific art programs in their per-app settings (such as Clip Studio Paint) helps a little, but modern displays have really tiny bezels which leads to lots of unintentional palm touches at every edge, so it doesn't help much.
 
 Looking around online, I couldn't find any good solutions for this on Windows computers. I'm sure Linux has a few tricks up its sleeves, but I intentionally don't use that on my laptop since it doesn't suit my needs. So, hopefully this solution will solve it for everyone drawing on a portable Windows computer like I am.
 
