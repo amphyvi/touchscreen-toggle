@@ -23,16 +23,16 @@ Start by downloading `Toggle-Touchscreen-nocheck.ps1`. Then...
 2. In PowerShell, type the following, and (in the quotes) **type the path of the `Toggle-Touchscreen-nocheck.ps1` you downloaded**. Press Enter once you've got it.
 ```powershell
 # EXAMPLE: $input = "C:\Users\amphy\Downloads\Toggle-Touchscreen-nocheck.ps1"
-$in-file = ""
+$inFile = ""
 ```
 3. Next, type the following, and (in the quotes) **type the full path and name of where you want the EXE to end up**. Press Enter when finished.
 ```powershell
 # EXAMPLE: $output = "C:\Temp\Toggle-Touchscreen.exe" (be sure to include the .exe in the filename!)
-$out-exe = ""
+$outExe = ""
 ```
 4. Lastly, just run this and you'll end up with an EXE file where you specified in the previous step!
 ```powershell
-Invoke-ps2exe $in-file $out-exe
+Invoke-ps2exe $inFile $outExe
 ```
 
 This will get you most of the way. Now, you can pin that EXE to your Start menu or taskbar, or create a shortcut to it, and you can now use it to toggle your touchscreen... **but, you must make it run as Administrator** or you'll get a "generic error" each time and it won't work. Use A or B below to accomplish that.
