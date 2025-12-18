@@ -17,7 +17,7 @@ Just download the "source code" files. Use either the EXE or the PowerShell scri
 That's it! Your touchscreen should be disabled or enabled accordingly. Unfortunately, you have to follow those steps single time you want to toggle your touchscreen (since Windows doesn't permit running PowerShell scripts by double-clicking them, for security reasons) so it may get kind of grating after a while. That's where using it as an app comes in.
 
 ### Using the EXE app
-You can always just run it like any other app. Pin it to the taskbar or Start menu, create a desktop, whatever suits your workflow. However, you'll need to say Yes when the UAC prompt comes up.
+You can simply run it like any other app and it will toggle your touchscreen for you. Pin it to the taskbar or Start menu, create a desktop, whatever suits your workflow. However, you'll need to say Yes when the UAC prompt comes up.
 
 If you're security-minded like me, and require your password at UAC prompts... entering that every time you want to toggle touch gets pretty annoying. Just follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
 
