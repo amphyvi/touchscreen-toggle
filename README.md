@@ -1,5 +1,7 @@
-# Touchscreen-Toggle
-Solution for artists to toggle touchscreens on/off on Windows computers.
+
+# <img width="65" height="65" alt="Touchscreen-Toggle icon" src="https://github.com/user-attachments/assets/c1dfa607-4ab9-460d-ba0f-d7781f26dc28" /> Touchscreen-Toggle
+Solution for artists to quickly and easily turn on/off the touchscreen on Windows computers, without affecting stylus (digitizer) input.
+
 
 ---------------
 
