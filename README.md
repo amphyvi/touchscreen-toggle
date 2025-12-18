@@ -21,7 +21,7 @@ That's it! Your touchscreen should be disabled or enabled accordingly. Unfortuna
 ### Using the EXE app
 Run it like any other app, and it will toggle your touchscreen for you. Pin it to the taskbar or Start menu, create a desktop, whatever suits your workflow. However, you'll need to say Yes when the UAC prompt comes up.
 
-If you're security-minded like me, and require your password at UAC prompts... entering that every time you want to toggle touch gets pretty annoying. Just follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
+If you're security-minded like me, and you *also* require your password for UAC prompts... entering that every time you want to toggle touch gets pretty annoying. Just follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
 
 **Neither the script nor the EXE are signed. Do not use either one unless it has the correct MD5 sum, which you can find in each release's Release Notes.**
 
