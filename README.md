@@ -21,4 +21,4 @@ You can always just run it like any other app. Pin it to the taskbar or Start me
 
 If you're security-minded like me, and require your password at UAC prompts... entering that every time you want to toggle touch gets pretty annoying. Just follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
 
-**The EXE is not signed. Do not trust it unless it has the correct MD5 sum, which you can find in each release's release notes.**
+**Neither the script nor the EXE are signed. Do not use either one unless it has the correct MD5 sum, which you can find in each release's Release Notes.**
