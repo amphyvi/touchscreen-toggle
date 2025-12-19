@@ -14,7 +14,7 @@ Looking around online, I couldn't find any good solutions for this on Windows co
 
 There's a PowerShell .ps1 script, and a .exe app (which was made using the PowerShell script). Use either one per your preferences or needs. When you run it, Touchscreen-Toggle will (1) check your computer for touchscreen "devices" (that's how Windows sees them)... then (2) disable the enabled ones... and then (3) enable the disabled ones. Lastly, Touchscreen-Toggle will politely closes itself afterward. This all happens in just a few seconds.
 
-### Running the PowerShell script
+### Running the PowerShell script (Inconvenient, not recommended)
 *(You may need to [set unrestricted execution policy first](https://superuser.com/a/106362) before this works - if anyone knows how to solve this aspect of it, that would be greatly appreciated!)*
 
 1. Find the .ps1 file, wherever you keep it on your computer.
@@ -25,7 +25,7 @@ That's it! Your touchscreen should be disabled or enabled accordingly. Unfortuna
 
 For those reasons, I highly recommend just using the EXE app instead.
 
-### Running the EXE app
+### Running the EXE app (Convenient, recommended)
 Run it like any other app. Each time you do, say Yes when the UAC prompt pops up, and Touchscreen-Toggle will toggle your touchscreen once. Pin it to the taskbar or Start menu, create a desktop, whatever suits your workflow.
 
 If you're security-minded like me, and you require your password for UAC prompts... entering that every time you want to toggle touch gets pretty annoying. Just follow these (kind of technical, but very helpful) steps: https://superuser.com/a/1854880
