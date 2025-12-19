@@ -4,6 +4,7 @@
 
 Solution for artists to quickly and easily turn on/off the touchscreen on Windows computers, without affecting stylus (digitizer) input.
 
+  ![ezgif-8252417173631538-compressed2](https://github.com/user-attachments/assets/f0239f11-5c7d-4a31-93dc-7fa6fe59cccc)
 
 ---------------
 
